@@ -1,15 +1,30 @@
 /* nav-section */
-@media screen and (max-width:576px){
-.nav-section{
-    flex-direction: row;
-    /* width: calc(100% - 30px); */
-}
-    .menu{
-display: none;
+
+/* large device */
+@media  screen and (max-width:992px) {
+    .nav-section{
+       width:100%;
+       gap:42px;
     }
     .nav-section .menu-icon{
-        display: block;
-        color: white;
-        font-size: 34px;
+        display:none;
     }
+}
+/* small device */
+@media screen and (max-width:576px){  
+    .nav-section{  
+        flex-direction: row;  
+        /* width: calc(100% - 30px); */  
+    }  
+    .menu{  
+        display: none;  
+    }
+    .nav-section .logo{
+       font-size: 30px;
+    }  
+    .nav-section .menu-icon{  
+        display: block;  
+        color: white;  
+        font-size: 34px;  
+    }  
 }
