@@ -3,18 +3,18 @@
 /* large device */
 @media  screen and (max-width:992px) {
     .nav-section{
-        width: calc(100% - 35px);
+        width: 100%;
         gap: 30px;
     }
     .nav-section .menu-icon{
         display:none;
     }
     .menu ul{
-        gap: 20px;
+        gap:10px;
     }
     .banner-container {
         flex-direction: column;
-        width: 100%;
+       width: calc(100% - 20px);
     }
     .banner-container .banner-content{
         width: 100%;
@@ -51,7 +51,7 @@
     }  
     .banner-container {
         flex-direction: column;
-        width: 100%;
+        width: calc(100% - 20px);
     }
     .banner-container .banner-content{
         width: 100%;
