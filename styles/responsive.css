@@ -3,11 +3,33 @@
 /* large device */
 @media  screen and (max-width:992px) {
     .nav-section{
-       width:100%;
-       gap:42px;
+        width: calc(100% - 35px);
+        gap: 30px;
     }
     .nav-section .menu-icon{
         display:none;
+    }
+    .menu ul{
+        gap: 20px;
+    }
+    .banner-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-container .banner-content{
+        width: 100%;
+    }
+    .banner-container .banner-content h1 {
+    font-size: 78px;
+    font-weight: bold;
+    }
+    .banner-img .workout-video{
+        top: 18%;
+        left: 54%;
+    }
+    .banner-img .vedio-tutorial {
+        top: 46%;
+        left: 0%;
     }
 }
 /* small device */

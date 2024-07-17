@@ -96,8 +96,8 @@ padding-right: 20px;
     gap: 10px;
     padding: 15px 15px;
     transform: translatex(-50%, -50%);
-    top: 100%;
-    left: 50%;
+   top: 75%;
+    left: -17%;
     background: rgba(48, 48, 48, 0.54);
     border-radius: 16px;
 }
@@ -109,10 +109,10 @@ padding-right: 20px;
 }
 .banner-img .workout-video{
     position: absolute;
-    top: 60%;
-    left: 72%;
+    top: 18%;
+    left: 55%;
     background-color: #8c8c8c;
-    /* filter: brightness(70%); */
+    filter: brightness(70%);
     transform: translateY(-50%);
     background: rgba(48, 48, 48, 0.54);
     padding: 15px 15px;
