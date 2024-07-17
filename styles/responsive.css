@@ -1,0 +1,15 @@
+/* nav-section */
+@media screen and (max-width:576px){
+.nav-section{
+    flex-direction: row;
+    /* width: calc(100% - 30px); */
+}
+    .menu{
+display: none;
+    }
+    .nav-section .menu-icon{
+        display: block;
+        color: white;
+        font-size: 34px;
+    }
+}
