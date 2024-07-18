@@ -8,7 +8,7 @@ header{
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 80%;
+width: 90%;
 margin: 0 auto;
 }
 .nav-section .logo{
@@ -44,7 +44,7 @@ padding-right: 20px;
 /* end nav bar  */
 /* banner-container */
 .banner-container{
-    width: 80%;
+    width: 90%;
     margin: 40px auto;
     color: var(--primary-font-color);
     display: flex;
@@ -69,7 +69,7 @@ padding-right: 20px;
 .banner-container .banner-content span{
     font-size: 78px;
     font-weight: 400;
-    font-family:miama;
+    font-family: "Dancing Script", cursive;
 }
 .banner-container .button{
     display: flex;
@@ -85,6 +85,7 @@ padding-right: 20px;
 }
 .banner-container .banner-img{
     position: relative;
+    width: 50%;
 }
 .banner-container img{
     width: 100%;
@@ -98,7 +99,7 @@ padding-right: 20px;
     transform: translatex(-50%, -50%);
    top: 75%;
     left: -17%;
-    background: rgba(48, 48, 48, 0.54);
+    background: rgba(111, 110, 110, 0.54);
     border-radius: 16px;
 }
 .banner-container .vedio-tutorial .circle{
@@ -109,9 +110,9 @@ padding-right: 20px;
 }
 .banner-img .workout-video{
     position: absolute;
-    top: 18%;
-    left: 55%;
-    background-color: #8c8c8c;
+    top: 35%;
+    left: 61%;
+    background-color: #393939;
     filter: brightness(70%);
     transform: translateY(-50%);
     background: rgba(48, 48, 48, 0.54);

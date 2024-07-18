@@ -1,14 +1,15 @@
 /* nav-section */
 
-/* large device */
-@media  screen and (max-width:992px) {
+/* medium device */
+@media  screen  and (max-width:992px) {
     .btn{
-    padding: 10px 14px;
-    font-size: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
 }
     .nav-section{
-        width: 100%;
-        gap: 1.875rem;
+        width: calc(100% - 1.125rem);
+        gap: 0.875rem;
+        align-items: center;
     }
     .nav-section .menu-icon{
         display:none;
@@ -17,17 +18,19 @@
         gap:0.625rem;
     }
     .banner-container {
-        /* flex-direction: column; */
-       width: calc(100% - 1.25rem);
+        flex-direction: column;
+      width: calc(100% - 13.125rem);
+       align-items: center;
     }
     .banner-container .banner-content{
-        width: 50%;
+        width: 100%;
     }
     .banner-container .banner-content h1 {
     font-size: 2.875rem;
     font-weight: bold;
     }
     .banner-img .workout-video{
+        width: 50%;
         top: 18%;
         left: 54%;
     }
@@ -72,4 +75,5 @@
         top: 46%;
         left: 0%;
     }
+    
 }
