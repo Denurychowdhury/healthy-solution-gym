@@ -1,0 +1,50 @@
+/* change-habit-container */
+.change-habit-container{
+    width: 90%;
+    margin: 0 auto;
+    color: var(--primary-font-color);
+}
+.habit-content{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.habit-content h1{
+   font-size: 3rem;
+   font-weight: bold;
+   margin-bottom: 2rem;
+}
+.change-habit-container p{
+    color: var( --pragraph-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.change-habit-container .habit-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 2.75rem 0rem;
+    text-align: center;
+}
+.change-habit-container .habit-card h1{
+    font-size: 1.18rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.change-habit-container .habit-card img{
+border-radius: 100%;
+}
+@media screen and (max-width:992px){
+    .change-habit-container{
+        width: calc(100% - 20px);
+    }
+    .change-habit-container .habit-cards{
+    grid-template-columns: repeat(2, 1fr);}
+}
+@media screen and (max-width:577px){
+    .change-habit-container{
+        width: calc(100% - 20px);
+    }
+    .change-habit-container .habit-cards{
+    grid-template-columns: 1fr;}
+}
