@@ -21,7 +21,7 @@
 }
 .change-habit-container .habit-cards{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     gap: 2rem;
     margin: 2.75rem 0rem;
     text-align: center;
@@ -34,17 +34,46 @@
 .change-habit-container .habit-card img{
 border-radius: 100%;
 }
-@media screen and (max-width:992px){
-    .change-habit-container{
-        width: calc(100% - 20px);
-    }
-    .change-habit-container .habit-cards{
-    grid-template-columns: repeat(2, 1fr);}
+/* run extra container */
+.run-extra-container{
+    color: var(--primary-font-color);
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    background-color: #222222;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-@media screen and (max-width:577px){
-    .change-habit-container{
-        width: calc(100% - 20px);
-    }
-    .change-habit-container .habit-cards{
-    grid-template-columns: 1fr;}
+.run-extra-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.run-content{
+    width: 46%;
+    margin-left: 1rem;
+}
+.run-content h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.run-content p{
+    color: var(--pragraph-color);
+    margin: 1rem 0rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.run-content .btn{
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+ .run-image{
+    width: 54%;
+}
+.run-image img{
+    width: 100%;
+    border-radius: 30px;
 }
