@@ -23,6 +23,32 @@
 .run-image {
     width: 50%;
 }
+.caclulator-caption{
+    width: 100%;
+}
+#calculator{
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+.chart-calculator{
+    width: 100%;
+    flex-direction: column;
+}
+.chart{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+.bmi-calc-container input .select-one{
+width: 100px;
+}
+input{
+    width: calc(100% - 21px);
+}
+select{
+    width: 100%;
+}
 }
 
 @media screen and (max-width:577px){
