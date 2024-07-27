@@ -54,4 +54,25 @@
 .run-image {
     width: 100%;
 }
+/* calc */
+/* .bmi-calc-container{
+    width: calc(100% - 50px);
+    margin: 1.5rem auto;
+} */
+.caclulator-caption{
+    width: 100%;
+}
+.chart-calculator{
+    width: 100%;
+    flex-direction: column;
+}
+.chart{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+.bmi-calc-container input .select-one{
+width: 100px;
+}
 }

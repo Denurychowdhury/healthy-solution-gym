@@ -77,3 +77,105 @@ border-radius: 100%;
     width: 100%;
     border-radius: 30px;
 }
+/* bmi-calc-container */
+.bmi-calc-container{
+    color: var(--primary-font-color);
+    margin: 50px 0px;
+    background-color: #222222;
+}
+#calculator{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.calc-details{
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    gap: 10px;
+    margin: 20px 0px;
+    /* width: 50%; */
+}
+.input-value{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.bmi-calc-container input::placeholder{
+     color: #b0b0b0;
+}
+.bmi-calc-container input, select{
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #393939;
+    color: #b0b0b0;
+    font-size: 1.3rem;
+}
+.bmi-calc-container input, .select-two{
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #393939;
+    color: #b0b0b0;
+    font-size: 1.3rem;
+}
+.caclulator-caption{
+    text-align: center;
+    width: 50%;
+    margin: 2rem auto;
+}
+.caclulator-caption h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.caclulator-caption p{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: var(--pragraph-color);
+    font-weight: 400;
+    padding-top: 1.2rem;
+}
+.chart-calculator{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    gap: 50px;
+}
+.calc-description{
+    margin-bottom: 2rem;
+}
+.calc-description h1{
+   font-size: 1.8rem;
+}
+.calc-description p{
+   font-size: 0.8rem;
+   color: var(--pragraph-color);
+   margin-top: 1rem;
+}
+.chart{
+    width: 50%;
+}
+table{
+    border-collapse: collapse;
+}
+thead{
+    text-align: left;
+    font-size: 1rem;
+}
+td, th{
+    border:1px solid #393939;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+td{
+    color: #919191;
+    font-size: 0.90rem;
+}
+.bmi-calc-container .btn{
+    padding: 15px 60px;
+    border-radius: 30px;
+}
