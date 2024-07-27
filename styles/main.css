@@ -179,3 +179,49 @@ td{
     padding: 15px 60px;
     border-radius: 30px;
 }
+/* ENd BMI calc container */
+.mee-team-container{
+    color: var(--primary-font-color);
+    width: 90%;
+    margin: 2rem auto;
+}
+.mee-team-container p{
+    color: var(--pragraph-color);
+    font-size: 0.8rem;
+}
+.mee-team-container .caption{
+    width: 50%;
+    margin: 3rem auto;
+    text-align: center;
+}
+.mee-team-container .caption h1{
+    color: var(--primary-font-color);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.mee-team-container .caption p{
+   margin-top: 1rem;
+}
+.mee-team-container .trainer-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.mee-team-container .trainer-card{
+position: relative;
+}
+.mee-team-container .trainer-card .name-position{
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    backdrop-filter:contrast(1); 
+}
+.mee-team-container img{
+    width: 100%;
+    height: 272px;
+    border-radius: 10px;
+}

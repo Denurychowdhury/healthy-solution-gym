@@ -1,4 +1,4 @@
-@media screen and (max-width:992px){
+@media screen and (min-width:578px) and (max-width:992px){
     .change-habit-container{
         width: calc(100% - 20px);
     }
@@ -47,6 +47,10 @@ input{
     width: calc(100% - 21px);
 }
 select{
+    width: 100%;
+}
+/* meet team container */
+.mee-team-container .caption{
     width: 100%;
 }
 }
@@ -110,5 +114,15 @@ input{
 }
 select{
     width: 100%;
+}
+/* meet team container */
+.mee-team-container .trainer-cards {
+    grid-template-columns: 1fr;
+}
+.mee-team-container .caption{
+    width: 100%;
+}
+.mee-team-container .caption h1{
+    font-size: 32px;
 }
 }
