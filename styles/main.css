@@ -103,7 +103,7 @@ border-radius: 100%;
 .bmi-calc-container input::placeholder{
      color: #b0b0b0;
 }
-.bmi-calc-container input, select{
+.bmi-calc-container input{
     padding: 10px 10px;
     border: none;
     outline: none;
@@ -112,7 +112,7 @@ border-radius: 100%;
     color: #b0b0b0;
     font-size: 1.3rem;
 }
-.bmi-calc-container input, .select-two{
+.bmi-calc-container select{
     padding: 10px 10px;
     border: none;
     outline: none;
