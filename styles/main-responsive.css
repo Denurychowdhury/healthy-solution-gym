@@ -53,6 +53,12 @@ select{
 .mee-team-container .caption{
     width: 100%;
 }
+.mee-team-container .trainer-card .name-position {
+    position: absolute;
+    top: 74%;
+    left: 3%;
+    backdrop-filter: contrast(1);
+}
 }
 
 @media screen and (max-width:577px){
