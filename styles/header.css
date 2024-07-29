@@ -107,6 +107,12 @@ padding-right: 20px;
     height: 40px;
     border-radius: 100%;
     background-color: #e6533c;
+    position: relative;
+}
+.circle i{
+    position: absolute;
+    top: 27%;
+    left: 37%;
 }
 .banner-img .workout-video{
     position: absolute;
