@@ -225,3 +225,104 @@ position: relative;
     height: 272px;
     border-radius: 10px;
 }
+/* why-chose-container */
+.why-chose-container .caption{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+}
+.why-chose-container .caption h1{
+    color: var(--primary-font-color);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.why-chose-container .caption p{
+    color: var(--primary-font-color);
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e6533c;
+}
+.why-chose-container .caption .line-1{
+    position: absolute;
+    background-color: #e6533c;
+    width: 80px;
+    height: 2px;
+    bottom: 91%;
+    left: 27%;
+}
+.why-chose-container .caption .line-2{
+    position: absolute;
+    background-color: #e6533c;
+    width: 80px;
+    height: 2px;
+    bottom: 91%;
+    left: 61%;
+}
+.chose-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 2rem;
+    margin: 2rem 0rem;
+    padding: 2rem; 
+    background-color: #222222;
+}
+
+.chose-card img{
+    width: 100%;
+    border-radius: 8px;
+}
+.card-description{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.why-chose-container .card-content h1{
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+.why-chose-container .card-content p{
+    font-size: 1rem;
+    color: var(--pragraph-color);
+}
+.dumbles{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 1rem;
+    font-weight: 600;
+}
+.why-chose-container .dumble{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.why-chose-container i{
+color: #e6533c;
+rotate: -45deg;
+font-size: 1.7rem;
+}
+.why-chose-container .button{
+    display: flex;
+    gap: 0.8rem;
+}
+.why-chose-container .btn, .btn2{
+    padding: 10px 30px;
+    border-radius: 3rem;
+}
+.why-chose-container .btn2{
+    outline: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid white;
+}
+.why-chose-container .btn2:hover{
+    background-color: #e6533c;
+    border: none;
+    transition: 0.5s;
+}
+/*End style why chose container */

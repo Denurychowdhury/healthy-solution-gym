@@ -131,4 +131,9 @@ select{
 .mee-team-container .caption h1{
     font-size: 32px;
 }
+/* End meet team container */
+/* Why chose container */
+.chose-card{
+    flex-direction: column;
+}
 }
