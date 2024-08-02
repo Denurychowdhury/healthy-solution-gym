@@ -133,7 +133,19 @@ select{
 }
 /* End meet team container */
 /* Why chose container */
+.why-chose-container .caption{
+    width: 100%;
+}
 .chose-card{
     flex-direction: column;
 }
+.why-chose-container .caption .line-1 {
+    bottom: 92%;
+    left: 23%;
+}
+.why-chose-container .caption .line-2{
+    bottom: 92%;
+    left: 62%;
+}
+
 }

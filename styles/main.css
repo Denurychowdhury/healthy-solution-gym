@@ -243,7 +243,9 @@ position: relative;
     font-size: 1rem;
     font-weight: 600;
     color: #e6533c;
+    position: relative;
 }
+
 .why-chose-container .caption .line-1{
     position: absolute;
     background-color: #e6533c;
@@ -268,7 +270,6 @@ position: relative;
     gap: 2rem;
     margin: 2rem 0rem;
     padding: 2rem; 
-    background-color: #222222;
 }
 
 .chose-card img{
@@ -326,3 +327,58 @@ font-size: 1.7rem;
     transition: 0.5s;
 }
 /*End style why chose container */
+/* Footer container */
+footer{
+    background-color: #393939;
+}
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+     padding: 20px 0px;
+}
+.footer-content{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.footer-container .description{
+    width: 33%;
+}
+.footer-container .description h1{
+    color: #e6533c;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.footer-container .description p{
+    color:var(--pragraph-color);
+    font-size: 1rem;
+    font-weight:600;
+}
+.footer-content .get h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.footer-content .get ul{
+    list-style: none;
+    margin-top: 1.5rem;
+}
+.footer-content .get ul>li{
+color: var(--pragraph-color);
+margin-top: 1rem;
+}
+.footer-container hr{
+    border: 1px solid #393939;
+}
+.footer-container .copyright{
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 20px;
+    font-weight: 600;
+}
