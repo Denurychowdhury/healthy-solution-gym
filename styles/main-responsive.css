@@ -147,5 +147,9 @@ select{
     bottom: 92%;
     left: 62%;
 }
-
+/* footer */
+.footer-content{
+    flex-direction: column;
+    align-items: flex-start;
+}
 }
