@@ -49,6 +49,7 @@ padding-right: 20px;
     color: var(--primary-font-color);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 40px;
 }
 .banner-container .banner-content{
@@ -85,7 +86,6 @@ padding-right: 20px;
 }
 .banner-container .banner-img{
     position: relative;
-    width: 50%;
 }
 .banner-container img{
     width: 100%;
