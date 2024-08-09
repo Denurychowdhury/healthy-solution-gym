@@ -212,7 +212,12 @@
     .why-chose-container .caption {  
         width: 100%;  
     }  
-
+    .why-chose-container .caption h1{
+    font-size: 2rem;
+    }
+    .why-chose-container .card-content p{
+    font-size: 10px;
+    }
     .why-chose-container .btn, .btn2 {  
         padding: 0.5rem 1.2rem;  
     }  
