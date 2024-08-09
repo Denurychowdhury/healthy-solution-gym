@@ -7,6 +7,7 @@
         grid-template-columns: repeat(2, 1fr);  
     }  
 
+    /* Run extra container */
     .run-extra-container {  
         width: calc(100% - 20%);  
         margin: 20px auto;  
@@ -20,13 +21,19 @@
 
     .run-content {  
         width: 50%;  
-        margin-left: 0rem;  
+        margin-left: 1rem;  
     }  
 
-    .run-image {  
-        width: 50%;  
+    .run-image img {  
+        height: 319px;  
     }  
 
+    .run-content h1 {  
+        font-size: 3rem;  
+        font-weight: bolder;  
+    }  
+
+    /* Calculator */
     .caclulator-caption {  
         width: 100%;  
     }  
@@ -53,7 +60,7 @@
         width: 100px;  
     }  
 
-    input {  
+    .bmi-calc-container input {  
         width: calc(100% - 21px);  
     }  
 
@@ -73,7 +80,7 @@
         backdrop-filter: contrast(1);  
     }  
 
-    /* Why chose container */  
+    /* Why choose container */  
     .why-chose-container .caption {  
         width: 100%;  
     }  
@@ -131,25 +138,29 @@
 
     .run-content {  
         width: 100%;  
-        margin-left: 1rem;  
+        margin-left: 0rem;  
     }  
 
-    .run-content .btn {  
-        padding: 15px 50px;  
-        border-radius: 30px;  
-        width: 100%;  
+    .run-content h1 {  
+        font-size: 2rem;  
+        font-weight: bolder;  
     }  
 
     .run-image {  
         width: 100%;  
     }  
 
-    /* Calc */  
-    /* .bmi-calc-container {  
-        width: calc(100% - 50px);  
-        margin: 1.5rem auto;  
-    } */  
+    .run-image img {  
+        height: auto;  
+    }  
 
+    .run-content .btn {  
+        padding: 15px 50px;  
+        border-radius: 30px;  
+        width: 100%;  
+    }   
+
+    /* Calculator */  
     .caclulator-caption {  
         width: 100%;  
     }  
@@ -194,14 +205,16 @@
     }  
 
     .mee-team-container .caption h1 {  
-        font-size: 32px;  
+        font-size: 2rem;  
     }  
 
-    /* End meet team container */  
-
-    /* Why chose container */  
+    /* Why choose container */  
     .why-chose-container .caption {  
         width: 100%;  
+    }  
+
+    .why-chose-container .btn, .btn2 {  
+        padding: 0.5rem 1.2rem;  
     }  
 
     .chose-card {  
@@ -225,4 +238,4 @@
     .footer-container .description {  
         width: 100%;  
     }  
-}
+}  

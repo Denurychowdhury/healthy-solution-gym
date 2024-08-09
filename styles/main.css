@@ -41,7 +41,7 @@ border-radius: 100%;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     background-color: #222222;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@ border-radius: 100%;
     gap: 1rem;
 }
 .run-content{
-    width: 46%;
+    width: 40%;
     margin-left: 1rem;
 }
 .run-content h1{
@@ -75,7 +75,8 @@ border-radius: 100%;
 }
 .run-image img{
     width: 100%;
-    border-radius: 30px;
+    height: 300px;
+    border-radius: 20px;
 }
 /* bmi-calc-container */
 .bmi-calc-container{
