@@ -40,6 +40,9 @@
 }
 /* small device */
 @media screen and (max-width:576px){  
+    .btn{
+        font-size: 3vw;
+    }
     header{
         padding-bottom: 0px;
     }

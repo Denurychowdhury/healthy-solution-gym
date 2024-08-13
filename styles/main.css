@@ -34,6 +34,7 @@
 .change-habit-container .habit-card img{
 border-radius: 100%;
 }
+/* end change habit container */
 /* run extra container */
 .run-extra-container{
     color: var(--primary-font-color);
@@ -78,6 +79,7 @@ border-radius: 100%;
     height: 300px;
     border-radius: 20px;
 }
+/* end run extra container */
 /* bmi-calc-container */
 .bmi-calc-container{
     color: var(--primary-font-color);
@@ -181,6 +183,8 @@ td{
     border-radius: 30px;
 }
 /* ENd BMI calc container */
+
+/* meet team container */
 .mee-team-container{
     color: var(--primary-font-color);
     width: 90%;
@@ -226,6 +230,8 @@ position: relative;
     height: 272px;
     border-radius: 10px;
 }
+/* end meet team container */
+
 /* why-chose-container */
 .why-chose-container .caption{
     text-align: center;
@@ -284,7 +290,6 @@ position: relative;
 }
 .why-chose-container .card-content h1{
     font-size: 2.2rem;
-    margin-bottom: 1.5rem;
 }
 .why-chose-container .card-content p{
     font-size: 1rem;
@@ -301,23 +306,22 @@ position: relative;
     align-items: center;
     gap: 10px;
 }
-.why-chose-container i{
-color: #e6533c;
-rotate: -45deg;
-font-size: 1.7rem;
+.why-chose-container i {
+    color: #e6533c;
+    transform: rotate(-45deg); /* Use transform for better browser compatibility */
+    font-size: 1.7rem;
 }
+
 .why-chose-container .button{
     display: flex;
     gap: 0.8rem;
 }
-.why-chose-container .btn, .btn2{
-    padding: 10px 30px;
-    border-radius: 3rem;
+.why-chose-container .btn{
+    border-radius: 1.5rem;
 }
 .why-chose-container .btn2{
     outline: none;
     color: white;
-    font-size: 1.1rem;
     font-weight: 600;
     background: transparent;
     border: 1px solid white;
