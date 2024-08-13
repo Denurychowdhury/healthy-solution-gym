@@ -84,12 +84,12 @@ border-radius: 100%;
 .bmi-calc-container{
     color: var(--primary-font-color);
     margin: 50px 0px;
-    background-color: #222222;
 }
 #calculator{
  display: flex;
  justify-content: center;
  align-items: center;
+ background-color: #222222;
 }
 .calc-details{
     display: grid;
@@ -323,13 +323,8 @@ position: relative;
     outline: none;
     color: white;
     font-weight: 600;
-    background: transparent;
+    background:transparent;
     border: 1px solid white;
-}
-.why-chose-container .btn2:hover{
-    background-color: #e6533c;
-    border: none;
-    transition: 0.5s;
 }
 /*End style why chose container */
 /* Footer container */
