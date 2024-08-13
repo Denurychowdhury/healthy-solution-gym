@@ -21,17 +21,14 @@
     }  
 
     .run-content {  
-        width: 50%;  
         margin-left: 1rem;  
-    }  
-
+    }
     .run-image img {  
-        height: 319px;  
+        height: 319px;
     }  
 
     .run-content h1 {  
-        font-size: 3rem;  
-        font-weight: bolder;  
+        font-size: 2rem;  
     }  
 
     /* Calculator */  
@@ -154,6 +151,7 @@
     }  
 
     .run-image img {  
+        width: 100%;
         height: auto;  
     }  
 

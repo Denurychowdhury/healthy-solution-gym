@@ -2,6 +2,9 @@
 
 /* medium device */
 @media screen and (min-width:578px) and (max-width:992px) {
+      .btn{
+        font-size: 2vw;
+    }
     .nav-section{
         width: calc(100% - 1.125rem);
         gap: 0.875rem;
